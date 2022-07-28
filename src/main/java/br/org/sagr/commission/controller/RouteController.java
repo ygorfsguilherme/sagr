@@ -12,7 +12,7 @@ public class RouteController {
 
     @RequestMapping("/painel")
     public String mainWindow() {
-        return "pages/userPanel";
+        return "userPanel/index";
     }
 
 }
