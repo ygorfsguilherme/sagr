@@ -1,0 +1,14 @@
+/*
+ Font Google
+ <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+</style>
+CSS rules to specify families:
+font-family: 'Inter', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+body {
+    background-color: #B8B6CF;
+    font-family: 'Inter', sans-serif;
+}
