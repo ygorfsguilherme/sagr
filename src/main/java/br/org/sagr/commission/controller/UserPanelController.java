@@ -4,15 +4,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class RouteController {
-    @RequestMapping("/")
-    public String index() {
-        return "index";
-    }
+public class UserPanelController {
 
     @RequestMapping("/painel")
-    public String mainWindow() {
-        return "userPainel/index";
+    public String userPanel() {
+        return "userPanel/index";
     }
 
 }

@@ -21,10 +21,13 @@
                 </div>
                 <div class="box form">
                     <img src="img/avatauser.svg" alt="Avata do Usuario" class="avata">
-                    <form action="">
-                        <input type="text" name="username" id="username" placeholder="CPF">
-                        <input type="password" name="password" id="password" placeholder="********">
-                        <button type="button">Login</button>
+                    <form th:action="@{/}" method="post">
+
+                        <input type="text" id="username" name="username" placeholder="CPF"/>
+                        <input type="password" id="password" name="password" placeholder="*********"/>
+
+                        <button type="submit">Login</button>
+
                         <div class="remember checkbox">
                             <div class="remember">
                                 <input type="checkbox" name="remember" id="remember">
