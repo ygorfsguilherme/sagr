@@ -35,12 +35,12 @@ public class WebSecurityConfig {
         UserBuilder users = User.withDefaultPasswordEncoder();
         UserDetails user = users
             .username("user")
-            .password("user")
+            .password("123")
             .roles("USER")
             .build();
         UserDetails admin = users
             .username("admin")
-            .password("admin")
+            .password("456")
             .roles("USER", "ADMIN")
             .build();
         return new InMemoryUserDetailsManager(user, admin);
